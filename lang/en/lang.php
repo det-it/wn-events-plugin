@@ -1,0 +1,22 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Events',
+        'description' => 'A versatile and customizable WinterCMS plugin designed for seamless event management.',
+    ],
+    'title' => 'Title',
+    'slug' => 'Slug',
+    'description' => 'Description',
+    'event' => 'Event',
+    'date' => 'Date',
+    'opening' => 'Opening',
+    'closing' => 'Closing',
+    'det_events' => 'Events',
+    'create' => 'Create',
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'events' => 'Events',
+    'dates' => 'Dates',
+    'event_dates' => 'Event dates',
+    'event_details' => 'Event details',
+    'date_types' => 'Date types',
+];

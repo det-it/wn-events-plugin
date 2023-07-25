@@ -1,0 +1,26 @@
+fields:
+    date:
+        label: 'det.events::lang.date'
+        mode: date
+        span: auto
+        type: datepicker
+    opening:
+        label: 'det.events::lang.opening'
+        mode: time
+        span: auto
+        type: datepicker
+    closing:
+        label: 'det.events::lang.closing'
+        mode: time
+        span: auto
+        type: datepicker
+    description:
+        label: 'det.events::lang.description'
+        size: ''
+        span: full
+        type: textarea
+    date_type_id:
+        label: 'Date type'
+        span: auto
+        type: dropdown
+        

@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table det_events_events'
+    - builder_table_create_det_events_events.php
+1.0.3:
+    - 'Created table det_events_dates'
+    - builder_table_create_det_events_dates.php
+1.0.4:
+    - 'Updated table det_events_events'
+    - builder_table_update_det_events_events.php
+1.0.5:
+    - 'Created table det_events_date_types'
+    - builder_table_create_det_events_date_types.php
+1.0.6:
+    - 'Updated table det_events_dates'
+    - builder_table_update_det_events_dates.php

@@ -1,0 +1,30 @@
+plugin:
+    name: 'det.events::lang.plugin.name'
+    description: 'det.events::lang.plugin.description'
+    author: 'Francesco Mulassano'
+    icon: wn-icon-calendar
+    replaces: {  }
+permissions:
+    create:
+        tab: 'det.events::lang.det_events'
+        label: 'det.events::lang.create'
+    edit:
+        tab: 'det.events::lang.det_events'
+        label: 'det.events::lang.edit'
+    delete:
+        tab: 'det.events::lang.det_events'
+        label: 'det.events::lang.delete'
+navigation:
+    det-events:
+        label: 'det.events::lang.events'
+        url: det/events/events
+        icon: icon-calendar
+        permissions:
+            - create
+            - edit
+            - delete
+        sideMenu:
+            det-events-datetypes:
+                label: 'det.events::lang.date_types'
+                url: det/events/datetypes
+                icon: icon-calendar

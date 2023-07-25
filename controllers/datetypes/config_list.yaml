@@ -1,0 +1,12 @@
+list: $/det/events/models/datetype/columns.yaml
+modelClass: Det\Events\Models\DateType
+title: DateTypes
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'det/events/datetypes/update/:id'

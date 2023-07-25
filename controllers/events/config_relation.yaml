@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+dates:
+    label: 'det.events::lang.date'
+    view:
+        list: $/det/events/models/date/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/det/events/models/date/fields.yaml
+        list: $/det/events/models/date/columns.yaml
+        recordsPerPage: 10
+        showSearch: true

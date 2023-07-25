@@ -1,0 +1,17 @@
+fields:
+    title:
+        label: 'det.events::lang.title'
+        span: auto
+        type: text
+    slug:
+        label: 'det.events::lang.slug'
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    description:
+        label: Description
+        size: ''
+        span: auto
+        type: textarea

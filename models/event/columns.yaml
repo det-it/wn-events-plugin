@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+        width: 10px
+    title:
+        label: title
+        type: text
+        searchable: true

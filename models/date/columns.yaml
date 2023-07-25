@@ -1,0 +1,16 @@
+columns:
+    date:
+        label: date
+        type: text
+        sortable: true
+    opening:
+        label: opening
+        type: text
+    closing:
+        label: closing
+        type: text
+    dateType:
+        label: type
+        relation: dateType
+        select: title   
+        sortable: true

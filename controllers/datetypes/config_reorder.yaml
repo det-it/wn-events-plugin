@@ -1,0 +1,4 @@
+title: DateTypes
+modelClass: Det\Events\Models\DateType
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: DateTypes
+form: $/det/events/models/datetype/fields.yaml
+modelClass: Det\Events\Models\DateType
+defaultRedirect: det/events/datetypes
+create:
+    redirect: 'det/events/datetypes/update/:id'
+    redirectClose: det/events/datetypes
+update:
+    redirect: det/events/datetypes
+    redirectClose: det/events/datetypes

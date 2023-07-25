@@ -1,0 +1,30 @@
+fields:
+    title:
+        label: 'det.events::lang.title'
+        span: storm
+        cssClass: col-sm-6
+        type: text
+        tab: 'det.events::lang.event_details'
+    slug:
+        label: 'det.events::lang.slug'
+        span: storm
+        cssClass: col-sm-6
+        preset:
+            field: title
+            type: slug
+        type: text
+        tab: 'det.events::lang.event_details'
+    description:
+        label: 'det.events::lang.description'
+        size: ''
+        span: storm
+        cssClass: col-sm-6
+        type: textarea
+        tab: 'det.events::lang.event_details'
+    dates:
+        label: 'det.events::lang.event_dates'
+        span: storm
+        cssClass: col-sm-6
+        type: partial
+        path: $/det/events/controllers/events/_field_dates.htm
+        tab: 'det.events::lang.dates'
