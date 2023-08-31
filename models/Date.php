@@ -1,6 +1,7 @@
 <?php namespace Det\Events\Models;
 
 use Model;
+use Det\Sessions\Models\Session;
 
 
 /**
@@ -37,6 +38,11 @@ class Date extends Model
 
     public $belongsTo = [
         'dateType' => DateType::class, 
+    ];
+
+    public $hasMany = [
+        'sessions' => 
+           [Session::class, 'order' => 'start_time asc']
     ];
 
 }
