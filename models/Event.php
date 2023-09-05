@@ -39,6 +39,7 @@ class Event extends Model
     public $hasMany = [
         'dates' => [Date::class, 'order' => 'date asc'],
         'sessions' => [Session::class, 'order' => 'start_time asc'],
+        'cycles' => [Session::class, 'order' => 'title asc'],
     ];
 
     public $belongsTo = [
