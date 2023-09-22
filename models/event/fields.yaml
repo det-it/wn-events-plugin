@@ -19,7 +19,7 @@ fields:
         size: ''
         span: storm
         cssClass: col-sm-6
-        type: textarea
+        type: richeditor
         tab: 'det.events::lang.event_details'
     dates:
         label: 'det.events::lang.event_dates'
